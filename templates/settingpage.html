@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <title>Bug Tracker</title>
 
 
@@ -16,7 +17,7 @@
   <body>
 
     <div class="sidenav">
-      <div class="fa fa-user profileimg" style="font-size:30px" > Bob25</div>
+      <div class="fa fa-user profileimg" style="font-size:30px" > Aneesh K.</div>
       <br>
       <a href="index.html"><div class="fa fa-flag" style="font-size:30px"></div> Dashboard</a>
       <br>
@@ -38,7 +39,81 @@
 
 
       <div class="" id="settingpage">
-        Settings
+        <div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-4 pb-5">
+            <!-- Account Sidebar-->
+            <div class="author-card pb-3">
+                <div class="author-card-cover" style="background-image: url(https://bootdey.com/img/Content/flores-amarillas-wallpaper.jpeg);"><a class="btn btn-style-1 btn-white btn-sm" href="#" data-toggle="tooltip" title="" data-original-title=""><i class="fa fa-award text-md"></i>&nbsp;28 open tickets</a></div>
+                <div class="author-card-profile">
+                    <div class="author-card-avatar"><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="Aneesh Kabra">
+                    </div>
+                    <div class="author-card-details">
+                        <h5 class="author-card-name text-lg">Aneesh Kabra</h5><span class="author-card-position">Joined February 06, 2017</span>
+                    </div>
+                </div>
+            </div>
+            <div class="wizard">
+                <nav class="list-group list-group-flush">
+                    <a class="list-group-item active" href="#"><i class="fe-icon-user text-muted"></i>Profile Settings</a>
+
+
+                </nav>
+            </div>
+        </div>
+        <!-- Profile Settings-->
+        <div class="col-lg-8 pb-5">
+            <form class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="account-fn">First Name</label>
+                        <input class="form-control" type="text" id="account-fn" value="Aneesh" required="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="account-ln">Last Name</label>
+                        <input class="form-control" type="text" id="account-ln" value="Kabra" required="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="account-email">E-mail Address</label>
+                        <input class="form-control" type="email" id="account-email" value="aneesh.kabra@example.com" disabled="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="account-phone">Phone Number</label>
+                        <input class="form-control" type="text" id="account-phone" value="+7 (805) 348 95 72" required="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="account-pass">New Password</label>
+                        <input class="form-control" type="password" id="account-pass">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="account-confirm-pass">Confirm Password</label>
+                        <input class="form-control" type="password" id="account-confirm-pass">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <hr class="mt-2 mb-3">
+                    <div class="d-flex flex-wrap justify-content-between align-items-center">
+                        <div class="custom-control custom-checkbox d-block">
+                            <input class="custom-control-input" type="checkbox" id="subscribe_me" checked="">
+                            <label class="custom-control-label" for="subscribe_me">Notifications</label>
+                        </div>
+                        <button class="btn btn-style-1 btn-primary" type="button" data-toast="" data-toast-position="topRight" data-toast-type="success" data-toast-icon="fe-icon-check-circle" data-toast-title="Success!" data-toast-message="Your profile updated successfuly.">Update Profile</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
       </div>
 
     </div>
@@ -50,6 +125,9 @@
 
 
     <script src="script.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
   </body>
 
 
