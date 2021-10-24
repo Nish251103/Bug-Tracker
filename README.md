@@ -16,7 +16,7 @@ We learned how to work better in a team environment. Our command over web develo
 
 
 ## Video Demo
-[![Alternate Text]({image-url})]({https://vimeo.com/638188219} "Demo")
+https://vimeo.com/638188219
 
 
 
