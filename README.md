@@ -14,6 +14,8 @@ As it was a team project, it was hard to communicate on an online platform.
 ## What we learned
 We learned how to work better in a team environment. Our command over web development became smoother. We learned how to utilize sawolabs and filebase in our project. We also interacted with Github.
 
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Video Demo
 https://vimeo.com/638188219
